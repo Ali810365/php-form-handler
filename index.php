@@ -3,6 +3,7 @@
     <title>PHP Test Page</title>
   </head>
   <body>
+<<<<<<< HEAD
     <h1>Form Handler</h1>
   <?php
 
