@@ -3,12 +3,20 @@
     <title>PHP Test Page</title>
   </head>
   <body>
-    <h1>PHP Test Page</h1>
-    <?php
-    echo '<p>This is PHP!</p>';
-    ?>
-    <p>Hello From GitHub!</p>
-    <p>Second Pull</p>
-    <p>Hello From Replit!</p>
+    <h1>Form Handler</h1>
+  <?php
+
+  if(isset($_POST["FirstName"])){//show data 
+    echo $_POST["FirstName"];
+  }else{//show form
+    echo  '
+        <form method="post">
+          <p>First Name: <input type="text" name="FirstName"/></p> 
+          <p><input type="submit" /> </p>
+        </form>
+          ';
+  }
+
+  ?>
   </body>
 </html>
