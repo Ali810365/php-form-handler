@@ -3,7 +3,7 @@
     <title>PHP Test Page</title>
   </head>
   <body>
-<<<<<<< HEAD
+
     <h1>Form Handler</h1>
   <?php
 
@@ -11,7 +11,7 @@
     echo $_POST["FirstName"];
   }else{//show form
     echo  '
-        <form method="post">
+        <form method="post" action = "">
           <p>First Name: <input type="text" name="FirstName"/></p> 
           <p><input type="submit" /> </p>
         </form>
